@@ -22,7 +22,7 @@ The MVP showcases:
 The app visually compares different strategies, helping users understand their behaviour and performance.
 
 ## Project Folder Structure
-
+```
 project-rs-anime/
 │
 ├── app/ # Streamlit app files (UI and interaction logic)
