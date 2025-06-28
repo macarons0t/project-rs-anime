@@ -20,3 +20,30 @@ The MVP showcases:
 - Neural collaborative filtering (hybrid)
 
 The app visually compares different strategies, helping users understand their behaviour and performance.
+
+## Project Folder Structure
+
+project-rs-anime/
+│
+├── app/ # Streamlit app files (UI and interaction logic)
+│ └── main.py # Entry point for the app
+│
+├── data/ # Raw and cleaned datasets (CSV files)
+│ ├── anime.csv
+│ ├── rating.csv
+│ └── merged_anime_data.csv
+│
+├── src/ # Model scripts (CF, CBF, NCF)
+│ ├── cf_model.py
+│ ├── cbf_model.py
+│ └── ncf_model.py
+│
+├── notebooks/ # Jupyter notebooks for EDA and prototyping
+│ └── EDA.ipynb
+│
+├── utils/ # Utility/helper functions shared across modules
+│ └── similarity_utils.py
+│
+├── README.md # Project overview, setup instructions
+├── requirements.txt # Python dependencies
+└── .gitignore # Files and folders to ignore in version control
