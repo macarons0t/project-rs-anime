@@ -20,7 +20,8 @@ The app visually compares different strategies, helping users understand their b
 ```
 project-rs-anime/
 ├── app/            # Streamlit files (.py)
-├── data/           # Data could not be loaded because of the size
 ├── Different Recommender System Python notebooks/ # Trials conducted for different recommender systems(User, Content, Neural-Collaborative)
 ├── README.md       # Required project overview
 └── requirements.txt # Required to show dependencies
+
+The instructions to download the dataset and run the app
