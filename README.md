@@ -14,18 +14,13 @@ By curating recommendations, we aim to:
 
 The Minimum Viable Product (MVP) is an interactive Streamlit web application. It allows users to input a user ID and view personalized anime recommendations.
 
-The MVP showcases:
-- Collaborative filtering (user-based or item-based)
-- Content-based filtering (based on genres, type, etc.)
-- Neural collaborative filtering (hybrid)
-
 The app visually compares different strategies, helping users understand their behaviour and performance.
 
 ## Project Folder Structure
 ```
 project-rs-anime/
 ├── app/            # Streamlit files (.py)
-├── data/           # All CSV datasets
-├── notebooks/      # All EDA and model notebooks (.ipynb)
+├── data/           # Data could not be loaded because of the size
+├── Different Recommender System Python notebooks/ # Trials conducted for different recommender systems(User, Content, Neural-Collaborative)
 ├── README.md       # Required project overview
 └── requirements.txt # Required to show dependencies
